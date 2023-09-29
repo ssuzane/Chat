@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(163, 195, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.infoCelular img{
+    width: 50px;
+    height: 50px;
+}
+.infoCelular img:nth-child(3){
+    border: 3px solid rgb(139, 170, 204);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fotoPerfil{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.telaCelular{
+    background-color: rgb(255, 255, 255);
+    padding: 20px 20px;
+    border: 8px outset rgb(155, 155, 155);
+    border-radius: 12px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.telaCelular button{
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+.infoCelular{
+    background-color: rgb(211, 228, 247);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px 12px 0px 0px;
+}
+.infoCelular p{
+    color: rgb(5, 63, 255);
+    font-weight: bold;
+}
+
+.infoCelular img{
+    width: 50px;
+    height: 50px;
+}
+
+.item-conteiner{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 0px 0px 12px 12px;
+    height: 620px;
+    border-top: 1px solid rgb(88, 161, 209);
+    overflow-y: scroll;
+}
+.item-conteiner::-webkit-scrollbar{
+    background-color: rgb(123, 165, 255);  
+    width: 12px; 
+    border-radius: 20px;     
+    border: 3px solid rgb(255, 255, 255)
+}
+.item{
+    padding: 8px 12px;
+    border-radius: 12px;
+    display: flex;
+    gap: 8px;
+    height: 84px;
+    justify-content: space-between;
+    border: 1px solid rgb(187, 183, 183);
+}
+
+
